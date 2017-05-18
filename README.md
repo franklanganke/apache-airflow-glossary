@@ -1,21 +1,24 @@
 # Apache Airflow Glossary
 Confusing / missing stuff on Apache Airflow documenation
 
-# Scheduler
+## todo
+* worker
+
+## Scheduler
 * Scheduler starts the executor on startup.
 * Scheduler sends tasks to the executor.
 
-# Executor
+## Executor
 
-## SequentialExecutor
+### SequentialExecutor
 * Default configured executor: runs a single task at a time.
 * Runs out-of-the-box with local file-db.
 
-## LocalExecutor
+### LocalExecutor
  * Parallelize task instances locally.
  * Depends on real database backend like MySQL or Postgres.
  
-## CeleryExecutor 
+### CeleryExecutor 
  * Scaling out of workers
  * Depends on Celery
  * Celery depends on a broker (RabbitMQ, Redis, AWS SQS)
