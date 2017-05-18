@@ -1,4 +1,4 @@
-# discover-airflow
+# Apache Airflow Glossary
 Confusing / missing stuff on Apache Airflow documenation
 
 # Scheduler
